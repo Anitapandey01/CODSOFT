@@ -1,0 +1,199 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+html,body{
+  width:100wh;
+  height:100vh;
+}
+#main{
+  background-color: rgba(12, 1, 1, 0.39);
+  height:100%;
+  width:100%;
+  display:flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+#part1{
+  height:100%;
+  width:26%;
+}
+#part2{
+  height:100%;
+  width:68%;
+  background-color: rgb(55, 16, 16);
+  background-image: url(https://admin.12grids.com/uploads/blogs/original_cover_images/Webp/Top_11_Web_Development_Technologies_You_Must_Know_In_2024_12Grids-compressed.webp);
+  background-size: cover;
+  background-position: center;
+}
+#overlay{
+  height:100%;
+  width:100%;
+  background-color: rgba(239, 161, 181, 0.432);
+}
+#part3{
+  height:100%;
+  width:7%;
+}
+#text{
+  height:300px;
+  position:absolute;
+  width:400px;
+  /* background-color:rgb(230, 197, 151); */
+  left:10%;
+  top:50%;
+  transform:translate(0,-50%);
+}
+#text>h1{
+  font-size:90px;
+  font-family:monument;
+  font-weight:800;
+  line-height: 78px;
+  letter-spacing:5px;
+  color:#fff;
+  text-transform: uppercase;
+}
+#small{
+  height:400px;
+  width:400px;
+  background-color: rgba(222, 226, 225,0.34);
+  position: absolute;
+  left:70%;
+  top:25%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyRdUh6TGDTXplfy3D-Bnpw_LhPxP8qbV2g&s);
+  background-position: center;
+  background-size: cover;
+  top:50%;
+  right:5%;
+  border-radius:13px;
+  box-shadow: 10px 10px 8px rgba(14, 16, 15, 0.46);
+  transform:translate(0,-50%);
+}
+#vertical-text{
+  position:absolute;
+  transform:rotate(90deg);
+  right:-39%;
+  top:2%;
+  transform-origin: 0% 0%;
+  /* width:100%; */
+  /* background-color: blue; */
+}
+#vertical-text h1{
+  font-size:70px;
+  font-family:monument;
+  font-weight:900;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  color:transparent;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color: #fff;
+}
+#nav{
+  position:absolute;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  width:450px;
+  left:9%;
+  top:5%;
+  /* background-color: blue; */
+}
+#nav img{
+  height:60px;
+}
+#nav h5{
+  font-size:20px;
+  position: fixed;
+  color:#fff;
+  left:300px;
+  letter-spacing: 30px;
+  font-family:gilroy;
+
+}
+#tab{
+  background-color:rgba(12, 1, 1, 0.39);
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+#img2{
+  background-image: url(https://gds.blog.gov.uk/wp-content/uploads/sites/60/2017/09/coding-in-the-open-620x413.jpg);
+  background-size:cover;
+  background-position: center;
+  height:100%;
+  width:70%;
+}
+#tab h2{
+  top:114%;
+  position:absolute;
+  text-align: center;
+  font-size: 65px;
+  font-family: gilroy;
+  color:rgba(88, 57, 34, 0.329);
+  font-weight: 50px;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color: #fff;
+  letter-spacing: 15px;
+  /* text-shadow: 10px 10px 10px rgb(71, 69, 69); */
+}
+#box{
+  position: absolute;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items:center;
+}
+.tab1{
+  margin:30px;
+  height:200px;
+  width:250px;
+  background-color:rgb(244, 215, 177);
+  gap:20px;
+  border-radius:10px;
+  box-shadow:15px 15px 10px black;
+}
+.tab1 h3{
+  padding:20px;
+  font-size:30px;
+  font-family: sans-serif;
+  letter-spacing: 8%;
+}
+.tab1 p{
+  font-size:17px;
+  letter-spacing:5%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#vt{
+  position:absolute;
+  right:18%;
+  top:175%;
+}
+#vt{
+  font-size:30px;
+  font-family:monument;
+  font-weight:200px;
+  letter-spacing:40px;
+  text-transform: uppercase;
+  color:transparent;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color: #fff;
+}
+footer{
+  background-color:rgba(40, 35, 35, 0.622);
+  width:100%;
+  height:12%;
+  text-align: center;
+  border-top-left-radius:25px;
+  border-top-right-radius: 25px;
+}
+footer p{
+  position:relative;
+  top:30px;
+  font-size:25px;
+  letter-spacing: 10px;
+}
